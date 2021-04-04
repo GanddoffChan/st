@@ -1,10 +1,15 @@
 --- st.h
 +++ st.h
-@@ -81,6 +81,7 @@ void die(const char *, ...);
+@@ -81,7 +81,6 @@ void die(const char *, ...);
  void redraw(void);
  void draw(void);
  
-+void iso14755(const Arg *);
+-void iso14755(const Arg *);
  void printscreen(const Arg *);
  void printsel(const Arg *);
  void sendbreak(const Arg *);
+@@ -123,4 +122,3 @@ extern char *termname;
+ extern unsigned int tabspaces;
+ extern unsigned int defaultfg;
+ extern unsigned int defaultbg;
+-extern char *iso14755_cmd;

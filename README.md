@@ -16,6 +16,8 @@ Any size: allows st to resize to any pixel size, makes the inner border size dyn
 
 Bold is not bright: makes bold text rendered simply as bold, leaving the color unaffected
 
+Box draw: nicer graphic lines and blocks characters
+
 Dynamic cursor color: swaps the colors of your cursor and the character you're currently on
 
 Right click paste: pressing right-click pastes from the primary-selection
