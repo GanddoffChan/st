@@ -1,6 +1,14 @@
 # st (suckless terminal)
 
-orig: [suckless terminal (st)](https://st.suckless.org/)
+Orig: [suckless terminal (st)](https://st.suckless.org/)
+
+## functionality
+
+Copy and paste: `alt-c` and `alt-v`
+
+Change of colourscheme: edit config.h to change the 8 normal and 8 bright colours; remember to compile the programme again after editing
+
+alpha (opacity) patch is not included because that is the job of a compositor (such as [picom](https://github.com/yshui/picom)
 
 ## added patches
 
