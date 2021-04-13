@@ -20,6 +20,8 @@ Box draw: nicer graphic lines and blocks characters
 
 Dynamic cursor color: swaps the colors of your cursor and the character you're currently on
 
+Invert: invert the colours for a light theme with `alt-x`
+
 Right click paste: pressing right-click pastes from the primary-selection
 
 Scroll back: scroll back through terminal output using `alt-j` and `alt-k`; faster scrolls are done with `alt-d` and `alt-u`; mouse scrolls are also supported
