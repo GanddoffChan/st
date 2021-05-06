@@ -10,7 +10,10 @@ static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
 static char *font2[] = {
 	"Inconsolata for Powerline:pixelsize=16:antialias=true:autohint=true",
 	"Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true",
+	//"IPAGothic:pixelsize=16:antialias=true:autohint=true",
+	//"Symbola:pixelsize=16:antialias=true:autohint=true"
 };
+
 static int borderpx = 2;
 
 /*
@@ -79,10 +82,10 @@ static unsigned int cursorthickness = 2;
  * 0: disable (render all U25XX glyphs normally from the font).
  */
 const int boxdraw = 1;
-const int boxdraw_bold = 0;
+const int boxdraw_bold = 1;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
-const int boxdraw_braille = 0;
+const int boxdraw_braille = 1;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
@@ -113,24 +116,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
+	"#000000",
+	"#ff2000",
+	"#00cd20",
+	"#cdcd20",
 	"#0080ff",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#cd20cd",
+	"#00cdcd",
+	"#cdcdcd",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#808080",
+	"#ff0000",
+	"#00ff00",
+	"#ffff00",
+	"#0000ff",
+	"#ff00ff",
+	"#00ffff",
+	"#ffffff",
 
 	[255] = 0,
 
