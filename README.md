@@ -8,9 +8,10 @@ Copy and paste: `alt-c` and `alt-v`
 
 Change of colourscheme: edit config.h to change the 8 normal and 8 bright colours; remember to compile the programme again after editing
 
-Alpha (opacity) patch is not included because that is the job of a compositor (such as [picom](https://github.com/yshui/picom))
 
 ## added patches
+
+Alpha: transparency (make sure to have a compositor such as [picom](https://github.com/yshui/picom))
 
 Any size: allows st to resize to any pixel size, makes the inner border size dynamic, and centres the content of the terminal so that the left/right and top/bottom borders are balanced
 
