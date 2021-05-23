@@ -33,4 +33,4 @@ Invert: invert the colours for a light theme with `alt-x`
 
 Right click paste: pressing right-click pastes from the primary-selection
 
-Scroll back: scroll back through termiallows to add spare font besides defaultnal output using `alt-j` and `alt-k`; faster scrolls are done with `alt-d` and `alt-u`; mouse scrolls are also supported
+Scroll back: scroll back through terminal output using `alt-j` and `alt-k`; faster scrolls are done with `alt-d` and `alt-u`; mouse scrolls are also supported
