@@ -6,6 +6,10 @@ Orig: [simple terminal (st)](https://st.suckless.org/)
 
 Copy and paste: `alt-c` and `alt-v`
 
+follow links: `alt-l`
+copy links: `alt-y`
+copy ouput: `alt-o`
+
 Change of colourscheme: edit config.h to change the 8 normal and 8 bright colours; remember to compile the programme again after editing
 
 
@@ -20,6 +24,8 @@ Bold is not bright: makes bold text rendered simply as bold, leaving the colour 
 Box draw: nicer graphic lines and blocks characters
 
 Dynamic cursor colour: swaps the colours of your cursor and the character you're currently on
+
+Externalpipe: reading and writing st's screen through a pipe
 
 Font2: allows to add spare font besides default
 
