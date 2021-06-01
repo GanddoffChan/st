@@ -5,13 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Source Code Pro:size=14:antialias=true:autohint=true";
+static char *font = "mono:pixelsize=18:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Inconsolata for Powerline:size=14:antialias=true:autohint=true",
-	"Hack Nerd Font Mono:size=14:antialias=true:autohint=true",
-	//"IPAGothic:pixelsize=16:antialias=true:autohint=true",
-	//"Symbola:pixelsize=16:antialias=true:autohint=true"
+	"Inconsolata for Powerline:pixelsize=18:antialias=true:autohint=true",
+	"Hack Nerd Font Mono:pixelsize=18:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
@@ -119,24 +117,44 @@ float alpha = 0.8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
+	"#000000",
+	"#cc0403",
+	"#19cb00",
+	"#cecb00",
 	"#0d73cc",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#cb1ed1",
+	"#0dcdcd",
+	"#dddddd",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
+	"#767676",
+	"#f2201f",
+	"#23fd00",
+	"#fffd00",
 	"#1a8fff",
-	"magenta",
-	"cyan",
-	"white",
+	"#fd28ff",
+	"#14ffff",
+	"#ffffff",
+
+	///* 8 normal colors */
+	//"#282c34",
+	//"#e06c75",
+	//"#98c379",
+	//"#e5c07b",
+	//"#61afef",
+	//"#c678dd",
+	//"#56b6c2",
+	//"#abb2bf",
+
+	///* 8 bright colors */
+	//"#596276",
+	//"#be5046",
+	//"#98c379",
+	//"#d19a66",
+	//"#61afef",
+	//"#c678dd",
+	//"#56b6c2",
+	//"#5c6370",
 
 	[255] = 0,
 
