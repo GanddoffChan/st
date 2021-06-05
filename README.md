@@ -1,16 +1,16 @@
 # st (simple terminal)
 
-Orig: [simple terminal (st)](https://st.suckless.org/)
+Original: [simple terminal (st)](https://st.suckless.org/)
 
 ## functionality
 
 Copy and paste: `alt-c` and `alt-v`
 
-follow links: `alt-l`
+Follow links: `alt-l`
 copy links: `alt-y`
-copy ouput: `alt-o`
+copy output: `alt-o`
 
-Change of colourscheme: edit config.h to change the 8 normal and 8 bright colours; remember to compile the programme again after editing
+Change of colour scheme: edit config.h to change the 8 normal and 8 bright colours; remember to compile the programme again after editing
 
 
 ## added patches
@@ -28,8 +28,6 @@ Dynamic cursor colour: swaps the colours of your cursor and the character you're
 Externalpipe: reading and writing st's screen through a pipe
 
 Font2: allows to add spare font besides default
-
-Invert: invert the colours for a light theme with `alt-x`
 
 Right click paste: pressing right-click pastes from the primary-selection
 
